@@ -7,8 +7,9 @@
 
 Allows strings like "B&Q", "M&S" and other bastions of the UK corporate landscape to be properly indexed.
 
-## Changelog
+[![Build Status](https://travis-ci.org/cftp/relevanssi-flywheel-shyster-and-flywheel.png?branch=master)](https://travis-ci.org/cftp/relevanssi-flywheel-shyster-and-flywheel)
 
+## Changelog
 
 ### 0.1 
 * First release

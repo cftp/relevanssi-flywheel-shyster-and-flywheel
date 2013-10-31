@@ -81,7 +81,7 @@ class Relevanssi_Flywheel_Shyster_And_Flywheel {
 	 * @return null
 	 */
 	public function __construct() {
-		add_action( 'admin_init', array( $this, 'action_admin_init' ) );
+		add_action( 'init', array( $this, 'action_init' ) );
 		add_filter( 'relevanssi_remove_punctuation', array( $this, 'filter_relevanssi_remove_punctuation' ) );
 
 		$this->version = 1;
@@ -98,7 +98,7 @@ class Relevanssi_Flywheel_Shyster_And_Flywheel {
 	 * @return void
 	 * @author Simon Wheatley
 	 **/
-	public function action_admin_init() {
+	public function action_init() {
 		remove_filter( 'relevanssi_remove_punctuation', 'relevanssi_remove_punct' );
 	}
 

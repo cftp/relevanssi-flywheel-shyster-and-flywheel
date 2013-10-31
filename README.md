@@ -12,7 +12,7 @@ Allows strings like "B&Q", "M&S" and other bastions of the UK corporate landscap
 ## Changelog
 
 ### 0.2 
-* BUGFIX: Unhook the Relevanssi filter in `admin_init`
+* BUGFIX: Unhook the Relevanssi filter in `init`
 
 ### 0.1 
 * First release
